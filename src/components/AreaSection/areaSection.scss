@@ -1,0 +1,82 @@
+.area-section-container {
+  min-height: 100vh;
+  background-image: url("../../assets/tzuk-bg.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10rem 20rem 0 20rem;
+  align-items: center;
+
+  @media screen and (max-width: 900px) {
+    padding: 10rem 2rem 0 2rem;
+    justify-content: center;
+    background-image: url("../../assets/tzuk-bg-vertical.png");
+  }
+}
+
+.area-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+
+  @media screen and (max-width: 900px) {
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 500px) {
+    transform: translate(0px, -80px);
+  }
+
+  h3 {
+    align-self: flex-end;
+    margin-bottom: 2rem;
+
+    @media screen and (max-width: 900px) {
+      align-self: center;
+    }
+  }
+}
+
+.area-section-p {
+  width: 100%;
+  margin-bottom: 4rem;
+
+  @media screen and (max-width: 600px) {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 1rem;
+    padding: 2rem;
+
+    width: 100%;
+    text-align: right;
+  }
+}
+
+.area-section-gps-img {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
+}
+
+.area-section-content-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+  }
+}

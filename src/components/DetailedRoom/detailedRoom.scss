@@ -1,0 +1,98 @@
+.detailed-room-container {
+  z-index: 999;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f1e3dd;
+  width: 40%;
+  max-width: 500px;
+  min-width: 300px;
+  max-height: 90vh;
+  border-radius: 1.2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.226);
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow-y: auto;
+
+  @media screen and (max-height: 750px) {
+    height: 500px;
+  }
+}
+
+.close-btn {
+  font-weight: 600;
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.detailed-room-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.detailed-room-desc {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+.detailed-room-rules-title {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.detailed-room-rules {
+  font-size: 1.6rem;
+
+  span {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+
+  margin-bottom: 2rem;
+}
+
+.order-by-phone {
+  margin-bottom: 1rem;
+}
+
+.order-by-whatsapp {
+  img {
+    margin-left: 1rem;
+  }
+
+  margin-bottom: 4rem;
+}
+
+.detailed-room-gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-gallery {
+  height: 400px;
+  background-color: black;
+}
+
+.spinner-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-details-a {
+  color: black;
+}

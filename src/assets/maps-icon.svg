@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="maps-icon" transform="translate(-656 -3473)">
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="12" cy="12" r="12" transform="translate(656 3473)" fill="#fff"/>
+    <path id="iconmonstr-location-pin-thin" d="M9.438,6.8A1.359,1.359,0,1,1,10.8,5.438,1.36,1.36,0,0,1,9.438,6.8m0-3.4a2.039,2.039,0,1,0,2.039,2.039A2.039,2.039,0,0,0,9.438,3.4M4.68,5.167a4.766,4.766,0,0,1,9.516,0c0,2.349-1.742,5.127-4.758,9.875C6.387,10.234,4.68,7.516,4.68,5.167M9.438,0A5.405,5.405,0,0,0,4,5.167c0,2.854,2.358,6.26,5.438,11.147,3.08-4.886,5.438-8.293,5.438-11.147A5.4,5.4,0,0,0,9.438,0" transform="translate(659 3476.686)" fill="#100f16" stroke="#000" stroke-width="0.2" fill-rule="evenodd"/>
+  </g>
+</svg>

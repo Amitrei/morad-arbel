@@ -1,0 +1,27 @@
+.room-card-container {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 1rem;
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.116);
+}
+
+.room-card-type {
+  font-size: 1.6rem;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.room-card-desc {
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.room-card-cta {
+  margin: 0 auto;
+  font-size: 1.4rem;
+  width: 200px;
+}

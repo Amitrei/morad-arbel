@@ -1,0 +1,49 @@
+.app {
+}
+
+.green-cta {
+  background-color: #4a9534;
+  padding: 0.8rem 3rem;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.black-overlay {
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: none;
+  animation: fadeOut 0.4s ease-in forwards;
+}
+
+.black-overlay-on {
+  transition: opacity 0.4s ease-in;
+  display: inherit;
+  animation: fadeIn 0.4s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
